@@ -35,6 +35,12 @@ $.extend($.easing,
         	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
                 settings.scrollSpeed, "easeInOutExpo", function(){
                     disableScrollFn = false;
+                    if (navID.indexOf('home') > 0) {
+                        // don't append the hash if going home
+                        location.hash = '';
+                    } else{
+                        location.hash = navID;
+                    }
                 }
             );
     	});

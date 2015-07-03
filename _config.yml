@@ -4,7 +4,6 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
-
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
 permalink: / ## disables post output
@@ -13,16 +12,14 @@ lsi: false
 markdown: kramdown
 highlighter: pygments
 
-
 ### content configuration ###
-title:       "SinglePaged - Title: Edit me in _config.yml!"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
-
+title:       "Sapphire, the missing piece of mobility"
+keywords:    "Sapphire, bluetooth, crutches, remote, remote control, music, Walk Easy, adaptive, adaptive technology, assistive, assistive technology"
+description: "Sapphire a crutch-mounted Bluetooth remote control. It is the missing piece of mobility."
+source_link: "https://sapphirepowered.com"
+# favicon:     #put a path like: "img/favicon.ico"
+# touch_icon:  #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: "UA-64686658-1"
 
 ### template colors, used site-wide via css ###
 colors:
@@ -33,4 +30,3 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
-  
