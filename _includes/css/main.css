@@ -206,7 +206,7 @@ nav ul li:hover, nav ul li.active {
   padding:15px;
   position:absolute;
   top:-135px;
-  left:50%;
+  left:15%;
   margin-left:-135px;
 }
 
@@ -304,8 +304,6 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-
-
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
@@ -335,6 +333,7 @@ nav ul li:hover, nav ul li.active {
     padding:15px;
     top:-100px;
     margin-left:-100px;
+    left: 50%;
   }
   .sectiondivider img {
     width:150px;
@@ -345,7 +344,7 @@ nav ul li:hover, nav ul li.active {
     margin-top: -14px;
   }
   .sectiondivider h5 {
-    font-size:15px;
+    font-size:12px;
     bottom:30px;
     width:170px
   }
@@ -354,5 +353,12 @@ nav ul li:hover, nav ul li.active {
     -webkit-column-count: 2;
     -moz-column-count:    2;
     column-count:         2;
+  }
+}
+
+/* desktop only */
+@media only screen and (min-width: 768px) {
+  .section .container.faicon {
+    margin-top: -135px;
   }
 }
