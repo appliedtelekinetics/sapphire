@@ -121,7 +121,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:#2e2e2e;
+  background:{{site.nav-background}};
 }
 
 nav ul {
@@ -135,14 +135,14 @@ nav ul {
 nav ul li {
   display:inline-block;
   border-top:{{navborder}}px solid;
-  padding: {{navborder}}px 0;
+  padding: {{navborder}}px 10px 0px 10px;
   *display:inline;
   zoom:1;
   line-height:normal;
   letter-spacing:normal;
   text-transform:uppercase;
-  min-width:110px;
-  line-height:60px;
+  /*min-width:100px;*/
+  line-height:30px;
   margin:0;
 }
 
@@ -160,8 +160,9 @@ nav ul li a:hover {
 nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
+  background: {{site.active-tab.background}};
+  color: {{site.active-tab.color}};
 }
-
 
 /* ----- sections/articles ----- */
 
@@ -184,7 +185,7 @@ nav ul li:hover, nav ul li.active {
   padding: 8px 0;
   min-height:0;
   text-align:center;
-  background-color:#2e2e2e;
+  background-color:{{site.footer-background}};
   background-image:none;
 }
 #footer .container p { font-size:13px; margin:0; }
@@ -310,7 +311,7 @@ nav ul li:hover, nav ul li.active {
   nav { font-size:11px; }
   nav ul li {
     min-width:60px;
-    line-height:40px;
+    line-height:20px;
   }
 }
 

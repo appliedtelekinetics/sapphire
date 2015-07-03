@@ -30,3 +30,11 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
+  red:       '#ff0000'
+
+active-tab:
+  color: '#ffffff'
+  background: '#424242'
+
+nav-background: '#2e2e2e'
+footer-background: '#2e2e2e'
