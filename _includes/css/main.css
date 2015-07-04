@@ -365,3 +365,10 @@ nav ul li:hover, nav ul li.active {
     margin-top: -135px;
   }
 }
+
+/* blah */
+
+a.cta-btn span{
+  color: white;
+  font-weight: bold;
+}
