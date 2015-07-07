@@ -34,7 +34,7 @@ colors:
 
 active-tab:
   color: '#ffffff'
-  background: '#424242'
+  background: '#7E7E7E'
 
 nav-background: '#2e2e2e'
 footer-background: '#2e2e2e'

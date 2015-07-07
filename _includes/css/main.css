@@ -157,11 +157,16 @@ nav ul li a, nav ul li a:visited {
 nav ul li a:hover {
   opacity:1
 }
+
 nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
   background: {{site.active-tab.background}};
+}
+
+nav ul li:hover, nav ul li.active a {
   color: {{site.active-tab.color}};
+  opacity: 1;
 }
 
 /* ----- sections/articles ----- */
