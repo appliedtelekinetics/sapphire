@@ -386,3 +386,16 @@ a.cta-btn span{
   color: white;
   font-weight: bold;
 }
+
+img.emoji {
+  width: 20px;
+  vertical-align: text-top;
+}
+
+div.centered-text p {
+  text-align: center;
+}
+
+div.bigger p {
+  font-size: 150%;
+}
