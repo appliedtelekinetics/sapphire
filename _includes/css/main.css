@@ -399,3 +399,5 @@ div.centered-text p {
 div.bigger p {
   font-size: 150%;
 }
+
+.section a.ul { text-decoration: underline !important; }
