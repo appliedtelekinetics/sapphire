@@ -7,7 +7,7 @@ safe: false
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
 permalink: / ## disables post output
-baseurl: /sapphire
+#baseurl: /sapphire
 timezone: null
 lsi: false
 markdown: kramdown
@@ -16,7 +16,7 @@ highlighter: pygments
 ### content configuration ###
 title:       "Sapphire, the missing piece of mobility"
 keywords:    "Sapphire, bluetooth, crutches, remote, remote control, music, Walk Easy, adaptive, adaptive technology, assistive, assistive technology"
-description: "Sapphire a crutch-mounted Bluetooth remote control. It is the missing piece of mobility."
+description: "Sapphire is a crutch-mounted Bluetooth remote control"
 source_link: "https://sapphirepowered.com"
 # favicon:     #put a path like: "img/favicon.ico"
 # touch_icon:  #put a path like: "img/apple-touch-icon.png"
